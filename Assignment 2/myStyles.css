@@ -1,0 +1,162 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-image: url(./Background\ Image.jpg);
+    background-repeat: no-repeat;
+    background-size: 1500px 1800px;
+    border: 15px groove greenyellow;
+    font-size: 20px;
+    font-family: 'Fira Sans', sans-serif;
+}
+/* Heading Part  */
+header
+{
+    /* display: flex; */
+}
+#Heading1, #Heading2, #Heading3
+{
+    
+    width: 300px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    border: 8px solid red;
+    border-radius: 36px;
+    margin: 10px 6px;
+    font-size: 20px;
+    font-weight: bolder;
+    position: absolute;
+    font-style: italic;
+    top: 20px;
+}
+#Heading1
+{
+    font-size: 155%;
+    left: 40px;
+    height: 75px;
+    padding: 40px 30px;
+    line-height: 40px; 
+}
+#Heading2 
+{
+    font-size: 100%;
+    top: 30px;
+    left: 300px;
+    padding: 30px 90px;   
+}
+#Heading3
+{
+    font-size: 130%;
+    padding: 30px 70px;
+    right: 30px;
+    height: 90px;
+    line-height: 35px;
+}
+/* Body or Middle part */
+.middle
+{
+    margin-top: 300px;
+    display: flex;
+
+    align-content: space-around;
+}
+/* Circle Part */
+    .left
+    {
+        font-weight:600;
+        font-size: 90%;
+        position: relative;
+        left: 40px;
+        top: 60px;
+        background-color: darkcyan;
+        border: 8px solid gray;
+        border-radius: 50%;
+        width: 365px;
+        height: 365px;
+        padding: 1px 16px;
+        margin: 110px 0px;
+    }
+    .left p
+    {
+        font-style: italic;
+         font-weight: bolder;
+         margin: 39px auto; 
+         text-decoration: underline;
+    }
+/* Form Part */
+    form
+    {
+        margin: 24px 0px;
+    }
+    .right
+    {
+        width: 450px;
+        position: absolute;
+        top: 220px;
+        left: 650px;
+        border: 8px dashed red;
+        background-color: white;
+    }
+    .red,#prh
+    {
+        margin: 18px;
+        color: lightcoral;
+        text-align: center;
+    }
+    div
+    {
+        text-align: center;
+    }
+    .red
+    {
+        margin: 10px 45px;
+    }
+    
+/* footer element */
+.bottom
+{
+    position: relative;
+    top: 65px;
+    background-color: black;
+    margin: 50px auto;
+    padding: 20px 120px;
+    border: 8px solid red;
+    border-radius: 50px;
+    text-align: center;
+    font-style: italic;
+    width: 300px;
+    color: lemonchiffon;
+}
+.container
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px auto;
+    justify-content: center;
+    color: rebeccapurple;
+}
+.card
+{
+    background-color: cyan;
+    box-sizing: border-box;
+    width: 400px;
+    height: 255px;
+    margin: 8px 20px;
+    border: 4px solid green;
+    border-radius: 30px;
+}
+.card h2,ul
+{
+    text-align: center;
+    padding: 12px 20px;
+}
+.H
+{
+    font-weight:800;
+    font-size: 150%;
+}
